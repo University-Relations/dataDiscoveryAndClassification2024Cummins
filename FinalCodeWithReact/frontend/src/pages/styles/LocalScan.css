@@ -1,0 +1,231 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  /* Container */
+  .bg-white {
+    background-color: #ffffff;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .p-6 {
+    padding: 1.5rem;
+  }
+  
+  /* Headers */
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .text-blue-800 {
+    color: #3182ce;
+  }
+  
+  .text-lg {
+    font-size: 1.125rem;
+  }
+  
+  /* Form Styles */
+  .flex {
+    display: flex;
+  }
+  
+  .space-x-4 > * + * {
+    margin-left: 1rem;
+  }
+  
+  .file\:mr-4 {
+    margin-right: 1rem;
+  }
+  
+  .file\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .file\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .file\:rounded-full {
+    border-radius: 9999px;
+  }
+  
+  .file\:border-0 {
+    border: 0;
+  }
+  
+  .file\:text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .file\:bg-blue-50 {
+    background-color: #ebf8ff;
+  }
+  
+  .file\:text-blue-700 {
+    color: #3182ce;
+  }
+  
+  .hover\:file\:bg-blue-100:hover {
+    background-color: #bee3f8;
+  }
+  
+  .cursor-not-allowed {
+    cursor: not-allowed;
+  }
+  
+  .transition-colors {
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  /* Button Styles */
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .rounded-full {
+    border-radius: 9999px;
+  }
+  
+  .bg-blue-600 {
+    background-color: #3182ce;
+  }
+  
+  .text-white {
+    color: #ffffff;
+  }
+  
+  .hover\:bg-blue-700:hover {
+    background-color: #3182ce;
+  }
+  
+  .bg-gray-300 {
+    background-color: #e2e8f0;
+  }
+  
+  .text-gray-500 {
+    color: #a0aec0;
+  }
+  
+  .bg-green-500 {
+    background-color: #2b6cb0;
+  }
+  
+  .hover\:bg-green-600:hover {
+    background-color: #3182ce;
+  }
+  
+  .bg-blue-500 {
+    background-color: #3182ce;
+  }
+  
+  .hover\:bg-blue-600:hover {
+    background-color: #3182ce;
+  }
+  
+  /* Icons */
+  .w-5, .h-5 {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  
+  .animate-spin {
+    animation: spin 1s linear infinite;
+  }
+  
+  /* Animations */
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Preview Section */
+  .bg-blue-50 {
+    background-color: #ebf8ff;
+  }
+  
+  .text-gray-600 {
+    color: #718096;
+  }
+  
+  .text-gray-700 {
+    color: #4a5568;
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  .list-disc {
+    list-style-type: disc;
+  }
+  
+  .list-inside {
+    padding-left: 1rem;
+  }
+  
+  /* Utility Classes */
+  .mb-6 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  
+  .grid {
+    display: grid;
+  }
+  
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .gap-4 {
+    gap: 1rem;
+  }
+  
+  .space-x-2 > * + * {
+    margin-left: 0.5rem;
+  }
+  
+  .flex-grow {
+    flex-grow: 1;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
